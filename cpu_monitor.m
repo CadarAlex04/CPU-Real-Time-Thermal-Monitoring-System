@@ -74,7 +74,7 @@ function cpu_monitor()
 
   function showDoc()
         % Defines the name of the documentation file
-        pdfFileName = 'Documentatie_CadarAlexDumitru.pdf'; 
+        pdfFileName = 'Documentation.pdf'; 
         
         % Checks if the file exists in the current folder before trying to open it
         if exist(pdfFileName, 'file')
@@ -181,4 +181,5 @@ function val = getSpecificTemp(node, targetName)
             end
         end
     end
+
 end
